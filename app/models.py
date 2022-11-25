@@ -50,6 +50,7 @@ class Comment(models.Model):
     first_name = models.CharField(max_length=50)
     last_name = models.CharField(max_length=50)
     comment = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
 
     class Meta:
         verbose_name = ("Comment")
