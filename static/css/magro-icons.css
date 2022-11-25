@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'magro';
+  src:
+    url('../fonts/magro.ttf?f1hvws') format('truetype'),
+    url('../fonts/magro.woff?f1hvws') format('woff'),
+    url('../fonts/magro.svg?f1hvws#magro') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^="magro-"], [class*=" magro-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'magro' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.magro-play-button:before {
+  content: "\e900";
+}
+.magro-play-arrow:before {
+  content: "\e901";
+}
+.magro-instagram:before {
+  content: "\e902";
+}
+.magro-visibility:before {
+  content: "\e903";
+}
+.magro-view:before {
+  content: "\e904";
+}
+.magro-pencil:before {
+  content: "\e905";
+}
+.magro-fire:before {
+  content: "\e906";
+}
+.magro-share:before {
+  content: "\e907";
+}
+.magro-flash:before {
+  content: "\e908";
+}
+.magro-star:before {
+  content: "\e909";
+}
+.magro-share-1:before {
+  content: "\e90a";
+}
+.magro-flash-1:before {
+  content: "\e90b";
+}
+.magro-youtube .path1:before {
+  content: "\e90c";
+  color: rgb(255, 0, 0);
+}
+.magro-youtube .path2:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.magro-youtube-1:before {
+  content: "\e90e";
+}
+.magro-camera:before {
+  content: "\e90f";
+}
+.magro-share-2:before {
+  content: "\e910";
+}
+.magro-clock:before {
+  content: "\e911";
+}
+.magro-messenger:before {
+  content: "\e912";
+}
+.magro-facebook:before {
+  content: "\e913";
+}
+.magro-heart:before {
+  content: "\e914";
+}
+.magro-google-play:before {
+  content: "\e915";
+}
+.magro-star-1:before {
+  content: "\e916";
+}
+.magro-message:before {
+  content: "\e917";
+}
+.magro-star-2:before {
+  content: "\e918";
+}
+.magro-volume:before {
+  content: "\e919";
+}
+.magro-stat:before {
+  content: "\e91a";
+}
+.magro-minute:before {
+  content: "\e91b";
+}
+.magro-maps-and-flags:before {
+  content: "\e91c";
+}
+.magro-placeholder:before {
+  content: "\e91d";
+}
+.magro-call:before {
+  content: "\e91e";
+}
+.magro-navigate:before {
+  content: "\e91f";
+}
+.magro-cursor:before {
+  content: "\e920";
+}

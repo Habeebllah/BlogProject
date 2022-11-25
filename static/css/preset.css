@@ -1,0 +1,347 @@
+/*
+Theme Name: Magro
+Theme URI: http://themewar.com/html/magro/
+Author: ThemeWar
+Author URI: http://themewar.com/
+Description: Magro - Blog & News Magazine HTML5 Responsive Template.
+Version: 1.0
+License:
+License URI:
+*/
+/*=======================================================================
+[Table of contents]
+=========================================================================
+
+1. Font Settings
+2. Typography Settings
+3. Button Settings
+4. Section Common Settings
+*/
+
+
+/*------------------------------------------------------------------------------
+/ 1. Font Settings
+------------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+/*------------------------------------------------------------------------------
+/ 2. Typography Settings
+------------------------------------------------------------------------------*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .18px;
+    color: #666666;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: 0;
+    margin: 0 0 15px;
+    line-height: 1.2;
+}
+p{
+    margin: 0 0 10px;
+}
+a{
+    color: #c72026;
+    transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -o-transition: all ease 400ms;
+}
+a:hover, a:focus{
+    outline: 0;
+    color: #333;
+    text-decoration: none;
+}
+input:focus, select:focus, textarea:focus, button:focus{
+    outline: 0;
+    box-shadow: none;
+}
+/*------------------------------------------------------------------------------
+/ 3. Button Settings
+------------------------------------------------------------------------------*/
+.magro_btn{
+    position: relative;
+    height: 57px;
+    text-align: center;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #666666;
+    border-radius: 0;
+    background: transparent;
+    color: #333333;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: .8;
+    font-weight: 700;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 0.80px;
+    padding: 21px 54px;
+}
+.magro_btn:hover{
+    border-color: #c72026;
+    background: #c72026;
+    color: #fff;
+}
+.magro_btn span{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: -15px;
+    line-height: .8;
+    margin-right: 9px;
+    display: inline-table;
+}
+.magro_btn span img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-animation: rotation 2s infinite linear;
+}
+.magro_btn span img:nth-child(2){
+    z-index: -1;
+}
+.magro_btn:hover span img:nth-child(2){
+    z-index: 1;
+}
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+/*------------------------------------------------------------------------------
+/ 4. Section Common Settings
+------------------------------------------------------------------------------*/
+.comon_section{
+    position: relative;
+    padding: 100px 0;
+}
+.sec_titles{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: .8;
+    position: relative;
+    margin: -4px 0 38px;
+    color: #101010;
+    padding-left: 20px;
+}
+.sec_titles i{
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 4px;
+    height: 28px;
+    background: #c72026;
+}
+.sec_titles i:after{
+    content: '';
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 2px;
+    height: 4px;
+    background: #c72026;
+}
+.white{
+    color: #fff;
+}
+.sec_titles_2{
+    position: relative;
+    font-size: 26px;
+    line-height: .8;
+    text-transform: uppercase;
+    color: #333333;
+    letter-spacing: 1.04px;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 22px;
+    margin: 0 0 38px;
+}
+.sec_titles_2 i{
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 70px;
+    height: 5px;
+    background: #c72026;
+}
+.sec_titles_2 i:after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 0 0 7px;
+    border-color: transparent transparent transparent #c72026;
+    left: 0;
+    top: -6px;
+}
+.sec_titles_3{
+    font-size: 22px;
+    line-height: .8;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    text-transform: uppercase;
+    background: #c72026;
+    height: 44px;
+    letter-spacing: 1.32px;
+    border: none;
+    margin: 0 0 38px;
+    padding: 12px 27px;
+}
+.sec_titles_3:after{
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 1px;
+    background: #d1d1d1;
+    content: '';
+    top: 21px;
+    left: 15px;
+    z-index: -1;
+}
+.sec_titles_3:before{
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 1px;
+    background: #f6f6f6;
+    content: '';
+    top: 22px;
+    left: 15px;
+    z-index: -1;
+}
+.sec_titles_3 i{
+    position: relative;
+}
+.sec_titles_3 i:after{
+    position: absolute;
+    content: '';
+    content: '';
+    left: 0px;
+    bottom: -19px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 8px 0 0;
+    border-color: #c72026 transparent transparent transparent;
+    transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -o-transition: all ease 400ms;
+}
+footer .widget .widget_title{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: .8;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0px 0 38px;
+    font-family: 'Barlow Condensed', sans-serif;
+    border: none;
+    color: #fff;
+    padding-left: 18px;
+}
+footer .widget .widget_title i{
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 4px;
+    height: 24px;
+    background: #c72026;
+}
+footer .widget .widget_title:after{
+    display: none;
+}
+.widget_title_2 {
+    font-size: 22px;
+    line-height: .8;
+    color: #fff;
+    text-align: center;
+    font-weight: 800;
+    display: inline-block;
+    background: #c72026;
+    text-transform: uppercase;
+    height: 44px;
+    letter-spacing: 1.32px;
+    border: 1px solid #f5d8d9;
+    margin: 0 0 41px;
+    padding: 12px 27px;
+}
+.widget_title_2:before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #666;
+    content: '';
+    top: 21px;
+    left: 0;
+    z-index: -1;
+}
+.widget_title_2:after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+    content: '';
+    top: 22px;
+    left: 0;
+    z-index: -1;
+}
+.widget_title_2 i {
+    position: relative;
+}
+.widget_title_2 i:after {
+    position: absolute;
+    content: '';
+    content: '';
+    left: 0px;
+    bottom: -19px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 8px 0 0;
+    border-color: #c72026 transparent transparent transparent;
+    transition: all ease 400ms;
+    -moz-transition: all ease 400ms;
+    -webkit-transition: all ease 400ms;
+    -ms-transition: all ease 400ms;
+    -o-transition: all ease 400ms;
+}
+.sec_titles_inline{
+    display: inline-block;
+}
+.noPaddingLeft{
+    padding-left: 0;
+}
+.noPaddingRight{
+    padding-right: 0;
+}
+.noPaddingBottom{
+    padding-bottom: 0;
+}
+.noPaddingTop{
+    padding-top: 0;
+}
+.noPadding{
+    padding: 0;
+}
